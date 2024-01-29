@@ -19,7 +19,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/sublabdev/common-swift.git", exact: "1.0.0"),
         .package(url: "https://github.com/sublabdev/hashing-swift.git", exact: "1.0.0"),
-        .package(url: "https://github.com/sublabdev/encrypting-swift.git", exact: "1.0.0"),
+        .package(url: "https://github.com/thisisalexmcgregor/encrypting-swift.git", branch: "main"),
         .package(url: "https://github.com/sublabdev/scale-codec-swift.git", exact: "1.0.0")
     ],
     targets: [
